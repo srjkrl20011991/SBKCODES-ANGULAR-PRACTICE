@@ -1,0 +1,11 @@
+<h1>property-binding !</h1>
+<img [src]="imageSrc" style="height: 100px; width: 100px" />
+<table border="1">
+  <tr>
+    <td [attr.colspan]="1 + 1"></td>
+  </tr>
+</table>
+
+<input type="text" [disabled]="disableTextBox" />
+<button (click)="disabledMyText()">Disable TextBox</button>
+<div [ngClass]="classes" [class]="manyClasses"></div>

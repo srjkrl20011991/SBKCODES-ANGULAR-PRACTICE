@@ -1,0 +1,17 @@
+// PIPES
+
+* DatePipe
+* UpperCasePipe
+* LowerCasePipe
+* CurrencyPipe
+* DecimalPipe
+* PercentPipe
+
+// Property Binding
+* Def and syntax
+* toggle button
+* img 
+* table
+* ngClass
+
+// 

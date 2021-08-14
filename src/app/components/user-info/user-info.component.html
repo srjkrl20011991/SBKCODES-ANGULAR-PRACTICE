@@ -1,0 +1,10 @@
+<h1>Good Morning, {{ str }}</h1>
+<p class="abc">user-info works!</p>
+<h2>Pipes</h2>
+<h4>Date Pipe</h4>
+<p>My Date is {{ myDate | date: "MM/dd/yy" | lowercase }}</p>
+<p>Currency {{ 10000 | currency: "EUR":"Euros" }}</p>
+<p>Slice Pipe {{ str | slice: 1:5 }}</p>
+<h3>Custom Pipe</h3>
+<p>Super power boost: {{ 2 | exponentialStrength: 10 }}</p>
+<p>Super power boost: {{ 6 | multiply: 5 }}</p>

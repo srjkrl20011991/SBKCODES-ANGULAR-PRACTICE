@@ -1,0 +1,11 @@
+<h1>Event Binding</h1>
+<img
+  [src]="imageSrc"
+  style="height: 100px; width: 100px"
+  [style.display]="displayNone"
+/>
+<br />
+<span [style.text-decoration]="lineBreak">
+  {{ item.name }}
+</span>
+<button (click)="delete()">Delete</button>
