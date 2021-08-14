@@ -1,0 +1,10 @@
+<h1>directive-practice works!</h1>
+<p>Current item name: {{ name }}</p>
+<label for="example-ngModel">model example :</label>
+<input id="example-ngModel" [(ngModel)]="name" />
+
+<div [ngStyle]="borderDiv" [ngClass]="isChangeColor ? 'spetial' : ''">
+  My div
+  <p>My para</p>
+</div>
+<button (click)="toggleColor()">Toggle Color</button>

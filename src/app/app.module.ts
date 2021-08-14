@@ -7,6 +7,8 @@ import { ExponentialStrengthPipe } from './exponential-strength.pipe';
 import { MultiplyPipe } from './multiply.pipe';
 import { PropertyBindingComponent } from './components/property-binding/property-binding.component';
 import { EventBindingComponent } from './components/event-binding/event-binding.component';
+import { DirectivePracticeComponent } from './components/directives/directive-practice/directive-practice.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,12 +17,11 @@ import { EventBindingComponent } from './components/event-binding/event-binding.
     ExponentialStrengthPipe,
     MultiplyPipe,
     PropertyBindingComponent,
-    EventBindingComponent
+    EventBindingComponent,
+    DirectivePracticeComponent,
   ],
-  imports: [
-    BrowserModule
-  ],
+  imports: [BrowserModule, FormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

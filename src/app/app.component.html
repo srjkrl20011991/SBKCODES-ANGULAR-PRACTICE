@@ -1,7 +1,11 @@
+<app-directive-practice></app-directive-practice>
 <app-event-binding
   [item]="currentItem"
   (deleteRequest)="deleteItem($event)"
 ></app-event-binding>
-<p>New Paragraph</p>
-<!-- <app-property-binding></app-property-binding> -->
-<!-- <app-user-info></app-user-info> -->
+<app-property-binding></app-property-binding>
+<app-user-info></app-user-info>
+<button (click)="getAllUserDataDetails()">GET ALL DATA</button>
+<div *ngFor="let item of userData">
+  {{ item.name }}
+</div>
